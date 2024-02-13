@@ -1,0 +1,107 @@
+[dir=rtl] .s-slider-block__title h2 {
+    color: #000000;
+}
+.navbar-brand img {
+    filter: drop-shadow(2px 4px 6px black);
+}
+.sicon-user-circle:before, .sicon-shopping-bag:before,.s-cart-summary-total,.sicon-menu:before {
+    color: white;
+ }
+.top-navbar, div#mainnav {
+    background: #71ccde;
+    color: white;
+}
+.footer-is-light .store-footer .store-footer__inner:before {
+    content: '';
+    background: url(https://cdn.salla.sa/ZYjon/4hTPzjdzweKtzPIynNvfsg2d0DdeghBKqth1477D.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-position: center;
+    margin-bottom: 29px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.s-button-primary-outline {
+    color: #ffffff;
+    background: var(--color-primary);
+}
+.footer-is-light .store-footer .store-footer__inner {
+    background: #71ccde;
+    color: white;
+        border-radius: 30px;
+}
+/* Add custom CSS styles below */ 
+.bg-gray-50 {
+    
+    background-color: white;
+}
+[dir=rtl] salla-slider.photos-slider .swiper {
+    padding-right: 0rem !important;
+}
+/* mover banner///////////////// */ 
+  [dir=rtl] .carousel-slider .swiper {
+    padding-left: 0rem !important;
+}
+salla-slider.photos-slider .swiper-slide {
+    position: relative;
+   margin: 0px !important;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0rem;
+}
+.rounded-md {
+    border-radius: 0rem !important;
+}
+.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden {
+    padding: 0px;
+}
+section:first-of-type.s-block.s-block--photos-slider {
+    margin: 0px !important;
+}
+
+/* categoryyy//////////////// */ 
+.grid.md\:grid-cols-3.two-row.grid-flow-row.gap-3.sm\:gap-8{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lazy__bg.lazy.entered.loaded {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ .banner--fixed img {
+    background: #faebd700;
+}   
+
+ 
+.grid.md\:grid-cols-3.two-row.grid-flow-row.gap-3.sm\:gap-8 .banner-entry {
+    width: 22%;
+    height: 280px !important;
+    background: #f9fafb00;
+}
+/* Media Query for Mobile Devices */ 
+ @media (max-width: 480px) { 
+  
+    .grid.md\:grid-cols-3.two-row.grid-flow-row.gap-3.sm\:gap-8 .banner-entry {
+    width: 48%;
+    height: 163px !important;
+    background: #f9fafb00;
+}
+  } 
+/* Media Query for low resolution  Tablets, Ipads */ 
+       
+@media (min-width: 481px) and (max-width: 767px) { 
+ .grid.one-row.md\:grid-cols-2.grid-flow-row.gap-3.sm\:gap-8 .banner-entry {
+    width: 47%;
+    height: 163px !important;
+    background: #f9fafb00;
+    }
+    .grid.md\:grid-cols-3.two-row.grid-flow-row.gap-3.sm\:gap-8 .banner-entry {
+    width: 48%;
+    height: 162px !important;
+    background: #f9fafb00;
+}
+ }
