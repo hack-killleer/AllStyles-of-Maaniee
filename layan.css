@@ -12,23 +12,25 @@
 }
 .hidden.lg\:block:after {
     content: "";
-    background: url(https://i.ibb.co/Px31HMx/Picsart-24-02-22-15-55-31-955.png);
+    background: url(https://i.ibb.co/3C85fRf/vqevy-Dg-KPl-Yx-Sk-JFaw-At-L5w23l-PJHBpoqd-Lo-MIG1.webp);
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
     width: 100%;
     height: 70px;
     background-position: right;
+    mix-blend-mode: darken;
 }
  .footer-is-light .store-footer .contact-social:after {
     content: "";
-    background: url(https://i.ibb.co/Px31HMx/Picsart-24-02-22-15-55-31-955.png);
+   background: url(https://i.ibb.co/3C85fRf/vqevy-Dg-KPl-Yx-Sk-JFaw-At-L5w23l-PJHBpoqd-Lo-MIG1.webp);
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
     width: 100%;
     height: 70px;
     background-position: center;
+    mix-blend-mode: darken;
 }
 .footer-is-light .store-footer .social-link ,.footer-is-light .store-footer [class*=" sicon-"]{
 box-shadow:rgba(0,0,0,.24) 0 3px 8px;
