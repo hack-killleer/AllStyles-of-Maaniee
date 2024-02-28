@@ -49,8 +49,7 @@ section:first-of-type.s-block.s-block--photos-slider {
     flex-wrap: wrap;
     justify-content: center;
 }
-}
-.lazy__bg.lazy.entered.loaded {
+ .lazy__bg.lazy.entered.loaded {
     background-size: contain;
     background-repeat: no-repeat;
 }
