@@ -67,7 +67,7 @@ section:first-of-type.s-block.s-block--photos-slider {
  @media (max-width: 480px) { 
            .banner-entry {
     width: 48%;
-     height: 130px !important;
+     height: 167px !important;
          background: #f9fafb00;
     }
   } 
