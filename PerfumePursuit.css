@@ -1,1 +1,83 @@
+.s-product-card-vertical {
+    border: 1px solid;
+    background: linear-gradient(178deg, #b3a8a4, white);
+}
+.footer-is-light .store-footer .store-footer__inner {
+    color: white;
+    background: #1e201f;
+    border-style: groove;
+}
+.footer-is-light .store-footer {
+    background: black;
+}
+/* Add custom CSS styles below */ 
+.bg-gray-50 {
+    
+    background-color: white;
+}
+[dir=rtl] salla-slider.photos-slider .swiper {
+    padding-right: 0rem !important;
+}
+/* mover banner///////////////// */ 
+  [dir=rtl] .carousel-slider .swiper {
+    padding-left: 0rem !important;
+}
+salla-slider.photos-slider .swiper-slide {
+    position: relative;
+   margin: 0px !important;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0rem;
+}
+.rounded-md {
+    border-radius: 0rem !important;
+}
+.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden {
+    padding: 0px;
+}
+section:first-of-type.s-block.s-block--photos-slider {
+    margin: 0px !important;
+}
 
+/* categoryyy//////////////// */ 
+.grid.one-row.md\:grid-cols-3.grid-flow-row.gap-3.sm\:gap-8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lazy__bg.lazy.entered.loaded {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ .banner--fixed img {
+    background: #faebd700;
+}   
+
+.banner-entry {
+    width: 31%;
+    height: 300px !important;
+    background: #f9fafb00;
+}
+    
+/* Media Query for Mobile Devices */ 
+ @media (max-width: 480px) { 
+           .banner-entry {
+    width: 48%;
+     height: 95px !important;
+         background: #f9fafb00;
+    }
+  .s-products-slider-card.swiper-slide {
+    width: 50%;
+}
+} 
+/* Media Query for low resolution  Tablets, Ipads */ 
+       
+@media (min-width: 481px) and (max-width: 767px) { 
+ .banner-entry {
+    width: 30%;
+    height: 177px !important;
+    background: #f9fafb00;
+    }
+ }
