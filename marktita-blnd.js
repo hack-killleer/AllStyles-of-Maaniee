@@ -1,3 +1,7 @@
+
+ 
+ // custom.js
+const customCSS = `
 <style>
   /* Add custom CSS styles below */ 
 body.index {
@@ -88,29 +92,34 @@ header.store-header {
     }
  }
 </style>
+`;
 
+const customJS = `
 <script>
   /* Add custom Js code below */ 
-/* Add custom JavaScript code below */
-var animateCSSLink = document.createElement("link");
-animateCSSLink.rel = "stylesheet";
-animateCSSLink.href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
-document.head.appendChild(animateCSSLink);
-document.addEventListener("DOMContentLoaded", function() {
-    var sections = document.querySelectorAll('body.index section');
-    function handleScroll() {
-        sections.forEach(function(section) {
-            var bounding = section.getBoundingClientRect();
+  var animateCSSLink = document.createElement("link");
+  animateCSSLink.rel = "stylesheet";
+  animateCSSLink.href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
+  document.head.appendChild(animateCSSLink);
+  document.addEventListener("DOMContentLoaded", function() {
+      var sections = document.querySelectorAll('body.index section');
+      function handleScroll() {
+          sections.forEach(function(section) {
+              var bounding = section.getBoundingClientRect();
 
-if (bounding.top <= window.innerHeight && bounding.bottom >= 0) {
- if(!section.classList.contains("animate__animated")) {
- section.classList.add("animate__animated", "animate__bounceInUp");
-                }
-            }
-        });
-    }
-    handleScroll();
-    window.addEventListener('scroll', handleScroll);
-});
-
+              if (bounding.top <= window.innerHeight && bounding.bottom >= 0) {
+                  if(!section.classList.contains("animate__animated")) {
+                      section.classList.add("animate__animated", "animate__bounceInUp");
+                  }
+              }
+          });
+      }
+      handleScroll();
+      window.addEventListener('scroll', handleScroll);
+  });
 </script>
+`;
+
+// Append CSS and JavaScript to the document
+document.head.insertAdjacentHTML('beforeend', customCSS);
+document.body.insertAdjacentHTML('beforeend', customJS);
